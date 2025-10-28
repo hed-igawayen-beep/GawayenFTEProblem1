@@ -33,7 +33,7 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.btnAnalyze = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Output = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'txtArtistName
@@ -128,20 +128,20 @@ Partial Class Form1
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
-        'ListBox1
+        'Output
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(290, 324)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(177, 95)
-        Me.ListBox1.TabIndex = 11
+        Me.Output.FormattingEnabled = True
+        Me.Output.Location = New System.Drawing.Point(242, 325)
+        Me.Output.Name = "Output"
+        Me.Output.Size = New System.Drawing.Size(305, 95)
+        Me.Output.TabIndex = 11
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.Output)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnAnalyze)
         Me.Controls.Add(Me.Label4)
@@ -171,5 +171,5 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents btnAnalyze As Button
     Friend WithEvents btnClear As Button
-    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents Output As ListBox
 End Class
